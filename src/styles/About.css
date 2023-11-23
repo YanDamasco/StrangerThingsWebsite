@@ -1,0 +1,6 @@
+.aboutBackgroundImage {
+  width: 100%;
+  height: 100%;
+  display:block;
+  filter: opacity(0.4);
+}
