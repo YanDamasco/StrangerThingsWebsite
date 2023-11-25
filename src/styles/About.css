@@ -17,11 +17,11 @@
 }
 
 .firstImage, .secondImage {
-  max-width: 460px;
+  max-width: 560px;
   width: 100%;
   height: auto;
   margin-top: 15%;
-  min-width: 230px;
+  min-width: 350px;
 }
 
 .parent {
@@ -58,5 +58,5 @@
 }
 
 .test {
-  padding: 10% 5%;
+  padding: 15% 5% 10% 5%;
 }
