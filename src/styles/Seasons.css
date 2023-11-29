@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.seasonsBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/images/bgPage2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  max-width: 1920px;
+}
+
+.testSeasons {
+  padding: 5% 5% 10% 5%;
+}
+
+.titleSeasons h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(210, 0, 0);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  margin-bottom: 10%;
+}
+
+.seasonOne, .seasonTwo, .seasonThree, .seasonFour {
+  width: 248px;
+  height: 367px;
+}
+
+.parentSeasons {
+  max-width: 1920px;
+  display: grid;
+  grid-gap: 20px;
+  column-gap: 5%;
+  grid-template-areas: 
+  'div1Title div2Title'
+  'div1Seasons div2Seasons'
+  'div3Title div4Title'
+  'div3Seasons div4Seasons';
+  justify-content: center;
+  align-items: center;
+}
+
+.div1Title, .div2Title, .div3Title, .div4Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(210, 0, 0);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: larger;
+}
+
+.div1Seasons, .div2Seasons, .div3Seasons, .div4Seasons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1Seasons h2, .div2Seasons h2, .div3Seasons h2, .div4Seasons h2{
+  color: #f2f2f2;
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 800px;
+  margin-left: 1.5%;
+}
+
+.div3Title, .div4Title {
+  margin-top: 5%;
+}
