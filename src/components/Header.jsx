@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="header-links">
-        <a href="">SOBRE</a>
+        <a href="#parent">SOBRE</a>
         <a href="">TEMPORADAS</a>
         <a href="">ELENCO</a>
         <a href="">ONDE ASSISTIR</a>
