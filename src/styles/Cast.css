@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.castBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../assets/images/bgPage3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  max-width: 1920px;
+  background-position: center center;
+}
+
+.castSpace {
+  padding: 5% 5% 10% 5%;
+}
+
+.castTitle h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(210, 0, 0);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  margin-bottom: 7%;
+}
