@@ -7,8 +7,11 @@ const About = () => {
   return (
     <div id="about">
       <div className="aboutBackground">
-        <div className="test">
-        <section className="parent" id='parent'>
+      <div className="test">
+        <div className='aboutTitle'>
+          <h1>SOBRE</h1>
+        </div>
+        <section className="parent" id='parentAbout'>
           <div className="div1">
             <img className="logo2" src={logo2} alt="" />
           </div>

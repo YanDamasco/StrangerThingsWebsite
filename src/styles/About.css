@@ -10,6 +10,19 @@
   background-position: center center;
 }
 
+.aboutTitle {
+  margin-top: 6%;
+}
+
+.aboutTitle h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(210, 0, 0);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+}
+
 .logo2 {
   max-width: 643px;
   width: 100%;
@@ -60,5 +73,5 @@
 }
 
 .test {
-  padding: 15% 5% 10% 5%;
+  padding: 5% 5% 10% 5%;
 }

@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <div className='header'>
       <div className="header-links">
-        <a href="#parent">SOBRE</a>
-        <a href="">TEMPORADAS</a>
-        <a href="">ELENCO</a>
+        <a href="#about">SOBRE</a>
+        <a href="#seasons">TEMPORADAS</a>
+        <a href="#cast">ELENCO</a>
         <a href="">ONDE ASSISTIR</a>
       </div>
     </div>

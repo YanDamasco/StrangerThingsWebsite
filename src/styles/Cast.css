@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 .castBackground {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../assets/images/bgPage3.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/bgPage3.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: block;
@@ -22,4 +22,32 @@
   font-family: 'Josefin Sans', sans-serif;
   font-size: 60px;
   margin-bottom: 7%;
+}
+
+.parentCast {
+  max-width: 1920px;
+  display: grid;
+  gap: 60px;
+  column-gap: 5%;
+  grid-template-areas: 
+  'firstPerson secondPerson thirdPerson fourthPerson fifthPerson'
+  'sixthPerson seventhPerson eighthPerson ninethPerson tenthPerson';
+  justify-content: center;
+  align-items: center;
+}
+
+.parentCast h2, h3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.parentCast h3 {
+  color: rgb(246, 246, 246);
+  padding-top: 8px;
+}
+.parentCast h2 {
+  color: rgb(210, 0, 0);
+  padding-top: 5px;
 }
